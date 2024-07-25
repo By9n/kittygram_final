@@ -15,8 +15,8 @@ services:
     image: by9n/kittygram_backend
     env_file: .env
     volumes:
-        - static:/static
-        - media:/media
+      - static:/backend_static
+      - media:/backend_media
     depends_on:
       - db
   frontend:
