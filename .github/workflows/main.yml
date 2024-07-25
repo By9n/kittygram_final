@@ -120,7 +120,6 @@ jobs:
           context: ./nginx/
           push: true
           tags: by9n/kittygram_gateway:latest
-    попробуй переписать код деплоя 
 
   deploy:
     runs-on: ubuntu-latest
