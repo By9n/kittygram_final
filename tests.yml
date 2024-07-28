@@ -1,4 +1,4 @@
 repo_owner: By9n
-kittygram_domain: http://51.250.29.91:9000/ # https://by9na-kittygramma.ddns.net/
-taski_domain: http://51.250.29.91:8000/ # https://caban-buyan.ddns.net/
+kittygram_domain: https://by9na-kittygramma.ddns.net/
+taski_domain: https://caban-buyan.ddns.net/
 dockerhub_username: by9n
