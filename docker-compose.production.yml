@@ -29,7 +29,7 @@ services:
     image: by9n/kittygram_gateway
     env_file: .env
     volumes:
-      - static:/app/media/
-      - media:/app/media/
+      - static: /app/media/
+      - media: /app/media
     ports:
       - 9000:80
