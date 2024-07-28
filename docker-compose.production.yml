@@ -15,8 +15,8 @@ services:
     image: by9n/kittygram_backend
     env_file: .env
     volumes:
-      - static:/static
-      - media:/media
+      - static: /app/static
+      - media: /app/media/
     depends_on:
       - db
   frontend:
@@ -29,7 +29,7 @@ services:
     image: by9n/kittygram_gateway
     env_file: .env
     volumes:
-      - static:/static
-      - media:/media
+      - static:/app/media/
+      - media:/app/media/
     ports:
       - 9000:80
