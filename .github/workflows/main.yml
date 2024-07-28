@@ -168,6 +168,7 @@ jobs:
         message: |
           Деплой успешно выполнен!
           Пользователь ${{ github.actor }} сделал комммит,
-          По поводу ${{ github.event.commits[0].message }}
-          Ссылка на коммит: https://github.com/${{ github.repository }}/commit/${{github.sha}} 
+          Сообщение коммита: ${{ github.event.commits[0].message }}
+          Ссылка на коммит: https://github.com/${{ github.repository }}/commit/${{ github.sha }} 
           Сообщение коммита: ${{ github.event.head_commit.message }}
+          Адресс сайта: https://by9na-kittygramma.ddns.net/
